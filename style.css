@@ -1,1 +1,11 @@
+#root {
+  --cor-de-fundo: #F5FFFA;
+}
 
+body {
+  background-color: var(--cor-de-funfo);
+}
+
+h1 { 
+  background-color: white;
+}
