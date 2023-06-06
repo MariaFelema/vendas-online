@@ -1,8 +1,10 @@
 @import url("styles/header.css");
 
 #root {
-  --cor-de-fundo: #b2f0d1;
+  --cor-de-fundo: #73e4abd7;
   --branco: #FFFFFF;
+  --laranja: #ffdd1e;
+  --azul-degrade: linear-gradient(97.54deg, #55acee 35.49%, #326589 165.37%);
 }
 
 body {
