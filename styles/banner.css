@@ -27,6 +27,9 @@
     width: 100%;
     }
 
-.banner__pesquisa {
+.banner__pesquisa::placeholder{
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+}
     
 
