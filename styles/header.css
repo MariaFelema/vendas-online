@@ -31,7 +31,7 @@
     }
 
 .lista-menu {
-    display: block;
+    display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
@@ -40,6 +40,10 @@
 .container_botao {
     display: none;
     }
+
+.container_botao:checked~.lista-menu{
+    display: block;
+}
 
 .lista-menu_titulo {
     color: var(--laranja);
