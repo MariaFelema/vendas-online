@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGRO M&K</title>
-   <link rel="stylesheet" href="reset.css">    
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="reset.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap">
     <link rel="stylesheet" href="style.css">
- 
+    <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+        />
   </head>
   <body>
     <header class="cabeçalho">
@@ -52,7 +55,31 @@
       <p class="banner_texto">Encontre em nosso portifolio os produtos que procura!</p>
       <input type="search" class="banner__pesquisa"
       placeholder="Qual será sua próxima compra?">
-      
       </section>
+
+      <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/lannate.svg" alt="lannate"></div>
+    <div class="swiper-slide"><img src="img/glivosato.svg" alt="glivosato"></div>
+    <div class="swiper-slide"><img src="img/dynali.svg" alt="dynali"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+        </section>
+      <script src=”https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js”></script>
   </body>
 </html>
